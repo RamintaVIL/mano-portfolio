@@ -1,0 +1,23 @@
+  .social-icons {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding: 50px;
+      height: 50px;
+  }
+
+  p {
+      font-size: 28px;
+      font-style: oblique;
+      color: #D59D80;
+  }
+
+  .social-icons a {
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 36px;
+  }
+
+  /* .social-icons a:hover {
+      color: #0073b1;
+  } */

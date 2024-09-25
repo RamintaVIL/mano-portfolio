@@ -1,0 +1,53 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0D1D25;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #D59D80;
+    text-align: center;
+
+    display: flex;
+    justify-content: left;
+    align-items: normal;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.octagon {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: #f4a261;
+    margin: 20px;
+}
+
+.octagon-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
