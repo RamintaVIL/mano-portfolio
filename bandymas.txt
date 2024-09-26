@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="social-icons">
+            <p>Follow me:</p>
+            <a href="https://www.instagram.com" target="_blank">📷</a>
+            <a href="https://www.linkedin.com" target="_blank">🔗</a>
+            <a href="https://www.facebook.com" target="_blank">📞</a>
+            <a href="https://www.twitter.com" target="_blank">🌴</a>
+        </div>
+    </header>
+    <section class="frontEndDeveloper">
+        <div class="introContainer">
+            <h1 class="introName">Raminta 😊</h1>
+            <h2 class="introDev">QA Engineer</h2>
+            <p class="introPara">
+                I implement user interface design and solve user problems with
+                HTML,<br />
+                CSS AND Javascript. I have 2 years of making products that solve
+                user <br />
+                problems and implementing responsive website.
+            </p>
+        </div>
+        <div class="introPhoto">
+            <img src="./img/dideleFoto.svg" alt="" />
+            <div class="octagon">
+                <div class="octagon-content">Text</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Introduction Section
+    <h1>Hello, <br> Raminta 😊</h1>
+    <div class="octagon">
+        <div class="octagon-content">Text</div>
+    </div> -->
+
+    <!-- About Me Section -->
+    <div class="about">
+        <h2>About me:</h2>
+        <p>daskjdnhksbhbhjkhjkh</p>
+        <h3>My CV</h3>
+    </div>
+
+    <!-- Octagon Shapes -->
+    <div class="octagon"></div>
+
+</body>
+
+</html>

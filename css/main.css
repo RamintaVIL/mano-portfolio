@@ -27,6 +27,57 @@ h1 {
     margin-top: 50px;
 }
 
+.frontEndDeveloper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #D59D80;
+    /* width: 100%; */
+    /* margin-bottom: 100px; */
+}
+
+.introContainer {
+    width: calc(100% - 1000px);
+}
+
+.introName {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.introDev {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.introPara {
+    padding: 20px;
+    font-size: 13px;
+
+}
+
+.contactBtn {
+    padding: 10px 25px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.contactBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.introPhoto {
+    margin-left: 10%;
+    /* background-color: aquamarine; */
+
+}
+
 h2 {
     font-size: 28px;
 }
