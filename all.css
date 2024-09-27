@@ -106,6 +106,10 @@ nav ul li a {
     margin: 40px 0;
 }
 
+.works {
+    text-align: center;
+}
+
 .skill,
 .work-item {
     text-align: center;
