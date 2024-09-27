@@ -100,27 +100,20 @@ nav ul li a {
 }
 
 .skills-grid,
-.works-grid,
-.clients-grid {
+.works-grid {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
 }
 
 .skill,
-.work-item,
-.client-review {
+.work-item {
     text-align: center;
     max-width: 250px;
 }
 
 .work-item img {
     width: 100%;
-}
-
-.contact {
-    text-align: center;
-    margin: 40px 0;
 }
 
 form {
@@ -140,20 +133,22 @@ form textarea {
 
 form button {
     padding: 10px 20px;
-    background-color: #FFD700;
+    background-color: #FBE4D8;
     border: none;
     cursor: pointer;
     margin-top: 20px;
 }
 
 footer {
-    background-color: #1E0030;
+    background-color: #2E004F;
     padding: 20px;
     text-align: center;
 }
 
 .social-links a {
+    display: flex;
+    justify-content: flex-end;
     margin: 0 10px;
-    color: #FFD700;
+    color: #FBE4D8;
     text-decoration: none;
 }
