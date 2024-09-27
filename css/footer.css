@@ -5,8 +5,7 @@ footer {
 }
 
 .social-links a {
-    display: flex;
-    justify-content: flex-end;
+    text-align: center;
     margin: 0 10px;
     color: #FBE4D8;
     text-decoration: none;
