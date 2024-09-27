@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #DFB6B2;
     text-decoration: none;
     font-size: 16.5px;
     font-style: italic;
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 .hero-buttons button {
-    background-color: #FFD700;
+    background-color: #FBE4D8;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -86,10 +86,17 @@ nav ul li a {
     }
 }
 
-
-/* .about-me {
-    text-align: center;
+.about-me-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: top;
     margin: 60px 0;
+}
+
+.mainFoto {
+    max-width: 400px;
+    height: 400px;
 }
 
 .skills-grid,
@@ -149,4 +156,4 @@ footer {
     margin: 0 10px;
     color: #FFD700;
     text-decoration: none;
-} */
+}

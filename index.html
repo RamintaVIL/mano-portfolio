@@ -24,37 +24,23 @@
                 <h1>Hi! I'm Raminta 😊 <br> QA Engineer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus dolore excepturi velit ipsum fugit.</p>
                 <div class="hero-buttons">
-                    <button>Download CV</button>
+                    <button type="button" onclick="openCV()">Download CV</button>
+
+
+
+                    <!-- <a class="cvbutton" href="tavo-cv-dokumentas.pdf" target="_blank" download>Download CV</a> -->
                 </div>
                 <img class="laptop" src="./images/loptopImg .png" alt="Laptop on the table. near is plenty and cup">
             </div>
         </section>
     </header>
 
-    <section class="about-me">
-        <h2>About me</h2>
-        <p>A hard worker, open to learn more about UI/UX design, creative in making designs, and solving users' problems...</p>
-    </section>
-
-    <!-- <section class="skills">
-        <h2>My Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">
-                <img src="app-design-icon.png" alt="App Design">
-                <h3>App Design</h3>
-                <p>Figma, Adobe XD, Photoshop, Illustrator</p>
+    <section class="about-me-container">
+        <img class="mainFoto" src="./images/mainPhoto .png" alt="">
+        <divclass="about-me">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eos provident omnis maiores, quas velit similique illum blanditiis aperiam veniam eligendi. <br>Nulla velit vitae, libero rem odit ducimus doloribus asperiores quo.</p>
             </div>
-            <div class="skill">
-                <img src="web-design-icon.png" alt="Web Design">
-                <h3>Web Design</h3>
-                <p>Figma, Adobe XD, Photoshop, Illustrator</p>
-            </div>
-            <div class="skill">
-                <img src="ux-design-icon.png" alt="UX Design">
-                <h3>UX Design</h3>
-                <p>User Interviews, Surveys, Usability Testing</p>
-            </div>
-        </div>
     </section>
 
     <section class="works">
@@ -79,31 +65,42 @@
                 <button>View Project</button>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <address>
-            <p>Email: mai.haggag99@gmail.com</p>
-            <p>Phone: +336 5689 3215</p>
-        </address>
-    </section> -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="./images/cypressTest.png" alt="">
+                <h3>Cypress test</h3>
+                <p>Automation test with cypress</p>
+            </div>
+            <div class="skill">
+                <img src="web-design-icon.png" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>Figma, Adobe XD, Photoshop, Illustrator</p>
+            </div>
+            <div class="skill">
+                <img src="ux-design-icon.png" alt="UX Design">
+                <h3>UX Design</h3>
+                <p>User Interviews, Surveys, Usability Testing</p>
+            </div>
+        </div>
+    </section>
 
-    <!-- <footer>
-        <p>© Haggag 2022</p>
+    <footer>
         <div class="social-links">
             <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
             <a href="#">Instagram</a>
             <a href="#">LinkedIn</a>
         </div>
-    </footer> -->
+    </footer>
+
+    <script>
+        function openCV() {
+            window.open('tavo-cv-dokumentas.pdf', '_blank');
+        }
+    </script>
 </body>
 
 </html>
